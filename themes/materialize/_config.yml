@@ -8,6 +8,9 @@ head:
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
     keywords:
+        - Bioinformatics
+        - Software QA
+        - Web Development
 
 # Jump Links Settings
 url:
@@ -101,7 +104,7 @@ dropdown:
 
 # Pages Menu
 pages:
-    #about: "/about"
+    About: "/about"
 
 
 
