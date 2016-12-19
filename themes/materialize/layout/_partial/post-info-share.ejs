@@ -17,4 +17,11 @@
             <%= __('share.toGplus') %>
         </li>
     </a>
+
+    <!-- Share Linkedin -->
+    <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=<%- config.url + config.root + url_for(path) %>&title=<%= config.title %>" target="_blank">
+        <li class="mdl-menu__item">
+            <%= __('share.toLinkedin') %>
+        </li>
+    </a>
 </ul>

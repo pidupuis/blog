@@ -14,6 +14,7 @@ share:
     comment_rss: "RSS Ulasan"
     toTwitter: "Kongsi ke Twitter"
     toGplus: "Kongsi ke Google+"
+    toLinkedin: "Kongsi ke LinkedIn"
     toWeibo: "Kongsi ke Weibo"
 title:
     category: "Kategori"

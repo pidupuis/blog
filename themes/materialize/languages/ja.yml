@@ -3,7 +3,7 @@ sidebar:
     archive: "過去の投稿"
     article_num: "記事番号"
 post:
-    visitor: "訪問者"    
+    visitor: "訪問者"
     views: "ビュー"
     continue: "読み続けて"
     older: "古い"
@@ -14,6 +14,7 @@ share:
     comment_rss: "論評 RSS"
     toTwitter: "Twitter での共有"
     toGplus: "Google+ での共有"
+    toLinkedin: "LinkedIn での共有"
     toWeibo: "Weibo での共有"
 title:
     category: "カテゴリー"

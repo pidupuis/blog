@@ -3,7 +3,7 @@ sidebar:
     archive: "归档"
     article_num: "文章总数"
 post:
-    visitor: "访客"	
+    visitor: "访客"
     views: "浏览量"
     continue: "继续阅读"
     older: "旧篇"
@@ -14,6 +14,7 @@ share:
     comment_rss: "评论 RSS"
     toTwitter: "分享到 Twitter"
     toGplus: "分享到 Google+"
+    toLinkedin: "分享到 LinkedIn"
     toWeibo: "分享到微博"
 title:
     category: "分类"

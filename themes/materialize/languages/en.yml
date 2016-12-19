@@ -14,6 +14,7 @@ share:
     comment_rss: "Comment RSS"
     toTwitter: "Share to Twitter"
     toGplus: "Share to Google+"
+    toLinkedin: "Share to LinkedIn"
     toWeibo: "Share to Weibo"
 title:
     category: "Category"

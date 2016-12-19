@@ -14,6 +14,7 @@ share:
     comment_rss: "評論 RSS"
     toTwitter: "分享到 Twitter"
     toGplus: "分享到 Google+"
+    toLinkedin: "分享到 LinkedIn"
     toWeibo: "分享到微博"
 title:
     category: "分類"

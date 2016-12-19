@@ -14,6 +14,7 @@ share:
     comment_rss: "Comentario RSS"
     toTwitter: "Compartir en Twitter"
     toGplus: "Compartir en Google+"
+    toLinkedin: "Compartir en LinkedIn"
     toWeibo: "Compartir en Weibo"
 title:
     category: "Categoría"

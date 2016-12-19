@@ -26,7 +26,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "That code I wrote..."
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -68,7 +68,7 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "/img/avatar.png"
+    avatar: "/img/avatar.jpg"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     footerico: "/img/footer/footer_ico-"
@@ -91,6 +91,7 @@ sns:
     instagram:
     tumblr:
     github: "https://github.com/pidupuis"
+    linkedin: "https://fr.linkedin.com/in/pidupuis"
 
 # Sidebar User Dropdown
 dropdown:
