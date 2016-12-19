@@ -88,7 +88,6 @@ sns:
     twitter:
     facebook:
     googleplus:
-    weibo:
     instagram:
     tumblr:
     github: "https://github.com/pidupuis"
@@ -122,7 +121,7 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
+    use: local
     swiftype_key:
 
 # Leancloud Views
