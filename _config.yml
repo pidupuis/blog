@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Pierre Dupuis
+title: That Code I Wrote
 subtitle:
-description:
+description: A blog about Bioinformatics, Software QA and Web development
 author: Pierre Dupuis
 language: en
 timezone: Europe/Paris

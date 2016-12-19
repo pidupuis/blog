@@ -31,7 +31,7 @@
     </li>
 -->
 
-	
+
     <!-- Archives  -->
     <li class="dropdown">
         <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
@@ -51,24 +51,33 @@
         </ul>
     </li>
 
+
+    <!-- About -->
+    <li>
+        <a href="/about" target="_self">
+            <i class="material-icons sidebar-material-icons">home</i>
+             <%= __("sidebar.about") %>
+        </a>
+    </li>
+
     <!-- Divider -->
-    <li class="divider"></li>
+    <!-- <li class="divider"></li> -->
 
 
     <!-- Pages  -->
-	<% for (var i in theme.pages){ %>
+	<!-- <% for (var i in theme.pages){ %>
 		<li>
 			<a href="<%= theme.pages[i] %>" title="<%= i %>">
 				<%= i %>
 			</a>
 		</li>
-	<% } %>
+	<% } %> -->
 
-    <!-- Article Numebr  -->
-    <li>
+    <!-- Article Number  -->
+    <!-- <li>
         <a href="/archives">
              <%= __("sidebar.article_num") %>
              <span class="sidebar-badge"><%= site.posts.length  %></span>
         </a>
-    </li>
+    </li> -->
 </ul>

@@ -25,7 +25,9 @@
             searchFunc(path, 'search', 'local-search-result');
         }
 
-        inputArea.onfocus = function(){ getSearchFile() }
+        if (inputArea) {
+            inputArea.onfocus = function(){ getSearchFile() }
+        }
 	</script>
 <% } %>
 

@@ -96,7 +96,7 @@ sns:
 # Sidebar User Dropdown
 dropdown:
     Email Me:
-        link: "#"
+        link: "mailto:pidupuis@protonmail.com"
         icon: email
 
 # Pages Menu
