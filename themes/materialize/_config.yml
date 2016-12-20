@@ -16,7 +16,7 @@ head:
 url:
     rss:
     daily_pic: "#"
-    logo:
+    logo: "/"
 
 
 # ---------------------------------------------------------------
@@ -73,7 +73,7 @@ img:
     logo: "/img/logo.png"
     avatar: "/img/avatar.jpg"
     daily_pic: "/img/daily_pic.png"
-    sidebar_header: "/img/sidebar_header.png"
+    sidebar_header: "/img/sidebar_header.jpg"
     footerico: "/img/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
     random_thumbnail: "/img/random/"
