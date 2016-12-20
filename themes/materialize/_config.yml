@@ -29,13 +29,13 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "That code I wrote..."
-    theme_color: "#0097A7"
-    theme_sub_color: "#00838F"
-    hyperlink_color: "#00838F"
-    button_color: "#757575"
-    android_chrome_color: "#0097A7"
-    nprogress_color: "#FF4081"
+    slogan: ""
+    theme_color: "#3a3333" #"#0097A7"
+    theme_sub_color: "#923B31" #"#00838F"
+    hyperlink_color: "#923B31" #"#00838F"
+    button_color: "#A68E8C" #"#757575"
+    android_chrome_color: "#3a3333" #"#0097A7"
+    nprogress_color: "#3D73A8" #"#FF4081"
     nprogress_buffer: "800"
 
 # JS Effect Switches
@@ -54,7 +54,7 @@ reading:
 # Thumbnail Settings
 thumbnail:
     purecolor:
-    random_amount: 5
+    random_amount: 1
 
 # Background Settings
 # bing available parameter:
@@ -72,7 +72,7 @@ background:
 img:
     logo: "/img/logo.png"
     avatar: "/img/avatar.jpg"
-    daily_pic: "/img/daily_pic.png"
+    daily_pic: "/img/Always-Neat.jpg"
     sidebar_header: "/img/sidebar_header.jpg"
     footerico: "/img/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
