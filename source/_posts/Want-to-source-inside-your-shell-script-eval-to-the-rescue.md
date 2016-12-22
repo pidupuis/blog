@@ -6,8 +6,10 @@ tags:
     - shell
 ---
 
-For the very first post of this site, I wanted something very digest so I chose a really basic shell problem which is common and yet, not enough documented. Let's say you want to add your `npm/bin` folder to the path to use `bower`. Basically, you need to update your profile file, so you'd do:
+For the very first post of this site, I wanted something very digest so I chose a really basic shell problem which is common and yet, not enough documented. Let's say you want to add your `npm/bin` folder to the path to use `bower`.
 <!-- more -->
+Basically, you need to update your profile file, so you'd do:
+
 ```bash
 $ echo "export PATH=\"$HOME/npm/bin:$PATH\"" >> ~/.bash_profile
 $ source ~/.bash_profile
