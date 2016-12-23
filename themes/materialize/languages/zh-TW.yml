@@ -16,6 +16,7 @@ share:
     toTwitter: "分享到 Twitter"
     toGplus: "分享到 Google+"
     toLinkedin: "分享到 LinkedIn"
+    toTelegram: "分享到 Telegram"
     toWeibo: "分享到微博"
 title:
     category: "分類"

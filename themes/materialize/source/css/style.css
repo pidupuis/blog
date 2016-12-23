@@ -3376,6 +3376,9 @@ a {
 .fa-linkedin-square:before {
     content: "\f08c"
 }
+.fa-telegram-square:before {
+    content: "\f2c6"
+}
 .fa-thumb-tack:before {
     content: "\f08d"
 }
@@ -3588,6 +3591,9 @@ a {
 }
 .fa-linkedin:before {
     content: "\f0e1"
+}
+.fa-telegram:before {
+    content: "\f2c6"
 }
 .fa-rotate-left:before,
 .fa-undo:before {

@@ -62,4 +62,12 @@
         <span class="visuallyhidden">Linkedin</span>
     </button></a>
     <% } %>
+
+    <!-- Telegram -->
+    <% if(theme.sns.telegram == undefined){ %>
+    <% }else{ %>
+    <a href="<%= theme.sns.telegram %>" target="view_window"><button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(<%= theme.img.footerico %>telegram.png);">
+        <span class="visuallyhidden">Telegram</span>
+    </button></a>
+    <% } %>
 </div>

@@ -16,6 +16,7 @@ share:
     toTwitter: "Share to Twitter"
     toGplus: "Share to Google+"
     toLinkedin: "Share to LinkedIn"
+    toTelegram: "Share to Telegram"
     toWeibo: "Share to Weibo"
 title:
     category: "Category"
