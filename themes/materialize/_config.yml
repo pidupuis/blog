@@ -28,7 +28,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: ""
+    slogan: "A blog about Software QA, Web development and Bioinformatics"
     theme_color: "#3a3333" #"#0097A7"
     theme_sub_color: "#923B31" #"#00838F"
     hyperlink_color: "#923B31" #"#00838F"
