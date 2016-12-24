@@ -93,31 +93,31 @@ browser.driver.wait(function() {
 }, 5000);
 ```
 
-In the previous code, we wait for the element to appear during 5 seconds maximum. This time is absolutely arbitrary. Since we leave the loop as soon as necessary, you can put 60 seconds if you want.
+In the previous code, we wait for the element to appear during 5 seconds maximum. This time is absolutely arbitrary. Since we leave the loop as soon as necessary, you can put 60 seconds or more if you want.
 
-However I usually recommend to force the browser to wait 500ms, no matter what. That prevents the test runner to execute the next line before running the waiting timer, which happens sometimes.
+Now that we've set a maximum waiting duration, I usually recommend to set a minimum as well. I force the browser to wait for 500ms, no matter what. That prevents the test runner to execute the next line before running the waiting timer, which happens sometimes.
 
 ```javascript
 browser.sleep(500);
 browser.driver.findElement(by.id('Email')).sendKeys('mygoogle@account.com');
 ```
 
-We'll use the same logic to click on the `Next` button, to enter the password and to click on the `signIn` button.
+We'll use the exact same logic to click on the `Next` button, to enter the password and then to click on the `signIn` button. I know, that means you'll spend at least half a second waiting for each action. That's a lot but that really reduces false negatives.
 
 ## Approval requirements
 
-The login form is not the only thing to handle. When you use a Google app, some intermediary pages can appear to ask you to approve the app and/or some access requirements. It is only asked once during the installation so we often forget this pages. In the context of our tests, this will be ask every time you'll run your test since nothing is registered locally.
+The login form is not the only thing to handle. When you use a Google app, some intermediary pages can appear to ask you to approve the app and/or some access requirements. It is only asked once during the installation so we often forget this pages. In the context of our tests, this will be asked every time you'll run your test since nothing is registered locally.
 
-You have two pages to considered, one for apps market account and one for approve access.
+There are two pages to consider, one concerning the apps market account and one for authorizations, which could be handled as following:
 
 ```javascript
 browser.driver.findElement(by.id('apps_market_account')).click();
 browser.driver.findElement(by.id('submit_approve_access')).click();
 ```
 
-As previously, you can use the `wait`, `sleep` and `isElementPresent` functions. However, these pages are not present for every Google app. They can appear as your app grows (if you add authorization requirements) so I strongly recommend you to handle them even if this is not necessary for now.
+However, not only you'll have to deal with the redirection time as previously but also these pages are not present for every Google app. They can appear as your app grows (if you add authorization requirements) so I strongly recommend you to handle them even if this is not necessary for now.
 
-How can we wait for a button which could never appear? Since you have been connected to Google at this point, you will normally be redirected to your app, so the idea is to wait for the url to be the one of your app and click on the intermediary buttons if they appear.
+How can we wait for a button which could never appear? Since you have been connected to Google at this point, you will normally be redirected to your app, so the idea is to wait for the url to be the one of your app and click on any intermediary approval buttons which may appear.
 
 ```javascript
 return browser.driver.wait(function() {
@@ -137,7 +137,7 @@ return browser.driver.wait(function() {
 }, 20000);
 ```
 
-In the previous code, we wait during 20 seconds maximum for the current url to be our app url. At each iteration, we click on the apps_market_account button if it is present. Once again, 20 seconds is an arbitrary duration. If you think you need more, put more.
+In the previous code, we wait during 20 seconds maximum for the current url to be our app url. At each iteration, we click on the `apps_market_account` button if it is present. Do the same for the `submit_approve_access` button. Once again, 20 seconds are an arbitrary duration. If you think you need more, put more. If no approval is required, it will take less time anyway.
 
 # Put it together<a id="put-it-together"></a>
 
