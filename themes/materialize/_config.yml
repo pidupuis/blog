@@ -99,7 +99,7 @@ sns:
 # Sidebar User Dropdown
 dropdown:
     Email Me:
-        link: "mailto:pidupuis@protonmail.com"
+        link: "mailto:contact@thatcodeiwrote.com"
         icon: email
 
 # Pages Menu
