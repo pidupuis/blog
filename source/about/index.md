@@ -13,11 +13,11 @@ I had every reason to be proud. A perfectly obfuscated code can be a real asset 
 
 From bad designs to shitty hacks, from one bearded IT guy to millions of successive trainees, ugly codes are everywhere. This is especially true in non-computer sciences research area where handcrafted scripts are ubiquitous. When research projects are always more specific than the previous ones, why would you spend time on reusability? When you're alone on your project, why would you spend time on shareability? When you're the only user of your script, why would you spend time on performance and documentation?
 
-These are all totally legitimate questions.
+Even software industry companies are not perfect either. Automated testing is often considered an inferior job compared to Software developer. It seems so faster and easier to live on hot fixes than to write tests. It is even more glorious. And even with tests, your code is not bug-proof, so why would you spend time on developing them?
 
-Even software industry companies are not perfect either. Automated testing is often considered an inferior job compared to Software developer. It seems so faster and easier to live on hot fixes than to write tests. It is even more glorious. And even with tests, your code is not bug-proof.
+These are all totally legitimate questions. And this blog is all about answers.
 
-Why another programming blog you may ask. As a Bioinformatician and a QA Engineer, my ambition is to bring these two worlds back together and a blog seemed an appropriate format. Therefore, here we'll talk about Web Development and Software Quality Assurance, especially applied but not limited to Bioinformatics.
+Why another programming blog you may ask. As a Bioinformatician and a QA Engineer, my ambition is to bring these two worlds back together and a blog seemed an appropriate format. Therefore, here we'll talk about **Web Development and Software Quality Assurance, especially applied but not limited to Bioinformatics**.
 
 I hope you'll enjoy the trip!
 
@@ -27,4 +27,4 @@ Because there is always a man behind a mistake, here I am. My name is Pierre Dup
 
 Holding a Master's degree in both Biology and Computer Sciences, I spent 6 months working in universities abroad, 1 year in a French leading pharmaceutical company, 1 year in the largest fundamental science agency in Europe, 1 year as a software QA manager for a Google partner and I am currently an R&D engineer in a Technology Innovation Institute in Microbiology and Infectiology.
 
-To report mistakes, suggest topics or everything else, feel free to email me.
+That said, I failed sometimes, and I plan to do it more often. To report mistakes, tell me I'm wrong, suggest topics or everything else, feel free to contact me.

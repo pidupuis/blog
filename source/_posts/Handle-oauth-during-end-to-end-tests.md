@@ -38,7 +38,7 @@ When the time comes to write end-to-end tests, one can see this authentication a
 
 > There is a lot of things I can test without being connected to Google. I don't want to depend on my Internet connection...
 
-The fact is, you're already in bed with the OAuth system since you've began your app. That's a not a bad thing, the authentication system is a part of your app and you have to deal with it.
+The fact is, you're already in bed with the OAuth system since you've began your app. That's not a bad thing, the authentication system is a part of your app and you have to deal with it.
 
 First, the only way not to depend on this authentication system is if your app implements its own alternative. If not, you need to log in to your Google account. After a quick search on Internet, you'll see that there is a lot of ways to be automatically connected. You can use your private OAuth token for Google to recognize your account. You can even indicate to Protractor the path of your Google Chrome browser in which you are autologged. Yeah, that's cheating, but you can.
 
