@@ -1,5 +1,5 @@
 ---
-title: Handle OAuth during end-to-end tests
+title: Handle Google authentication during end-to-end tests
 date: 2016-12-23T08:50:14.000Z
 tags:
   - test
@@ -7,7 +7,7 @@ tags:
   - angularjs
   - protractor
   - selenium
-  - OAuth
+  - google
 ---
 
 In this tutorial, I am going to walk through writing a simple Protractor configuration file to handle Google authentication during end-to-end tests of an AngularJS app. I will also explain why we are doing it like this with a little state-of-the-art.
@@ -106,7 +106,7 @@ We'll use the exact same logic to click on the `Next` button, to enter the passw
 
 ## Approval requirements
 
-The login form is not the only thing to handle. When you use a Google app, some intermediary pages can appear to ask you to approve the app and/or some access requirements. It is only asked once during the installation so we often forget this pages. In the context of our tests, this will be asked every time you'll run your test since nothing is registered locally.
+The login form is not the only thing to handle. When you use a Google app, some intermediary pages can appear to ask you to approve the app and/or some access requirements. It is only asked once during the installation so we often forget these pages. In the context of our tests, this will be asked every time you'll run your test since nothing is registered locally.
 
 There are two pages to consider, one concerning the apps market account and one for authorizations, which could be handled as following:
 
