@@ -5,7 +5,7 @@ tags:
   - pyenv
   - perl
   - plenv
-date: 2017-01-07T23:11:44.000Z
+date: 2017-01-09T20:11:44.000Z
 ---
 
 In this tutorial, I am going to show you how to handle multiple versions of binaries and dependencies without having projects interfering with each other and how to easily share a project through different computers. After reading this post, you'll know how to use virtual environments and appropriate tools to manage your script dependencies in both Python and Perl. It only takes a few minutes to learn and it is a must-have for every development.
