@@ -13,10 +13,9 @@ source ~/.bash_profile
 pyenv install 3.5.1
 
 # Set up env for a specific folder
-mkdir python_project
-cd python_project
-pyenv virtualenv 3.5.1 python_project
-pyenv local python_project
+mkdir my_project
+cd my_project
+pyenv local 3.5.1
 
 # Install package manager
 pip install --upgrade pip

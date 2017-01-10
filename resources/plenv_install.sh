@@ -12,8 +12,8 @@ plenv install 5.25.8
 plenv rehash
 
 # Set up env for a specific folder
-mkdir perl_project
-cd perl_project
+mkdir my_project
+cd my_project
 plenv local 5.25.8
 
 # Install package manager

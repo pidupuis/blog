@@ -139,7 +139,7 @@ return browser.driver.wait(function() {
 
 In the previous code, we wait during 20 seconds maximum for the current url to be our app url. At each iteration, we click on the `apps_market_account` button if it is present. Do the same for the `submit_approve_access` button. Once again, 20 seconds are an arbitrary duration. If you think you need more, put more. If no approval is required, it will take less time anyway.
 
-# Put it together<a id="put-it-together"></a>
+# <a id="put-it-together"></a>Put it together
 
 That's it. You have every key to create the authentication process. Here is the final configuration file:
 
