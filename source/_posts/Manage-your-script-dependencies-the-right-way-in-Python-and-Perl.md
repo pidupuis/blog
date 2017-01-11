@@ -34,7 +34,7 @@ In this tutorial, I am going to show you how to handle multiple versions of bina
   background-color: #f8cbcb;
 }
 .custom-code {
-  background: none 0% 0% / auto repeat scroll padding-box border-box rgb(0, 43, 54);
+  background: none 0% 0% / auto repeat scroll padding-box border-box rgb(247, 247, 247);
   color: rgb(131, 148, 150);
   font-size: 13px;
   line-height: 19px;
@@ -139,7 +139,7 @@ Your project now includes two simple human-readable files allowing anyone to use
 
 Therefore, **it will take only two commands to set up an environment where your script will be able to run**, and this without explanation or additional documentation. Not only using this is beneficial in no time but it is a good practice shared by the entire community.
 
-Besides, you'll have to admit that knowing how to do it in two major languages without additional learning is kind of relaxing.
+Moreover, you don't need any additional learning to do it in two major languages.
 
 I hope you liked this tutorial.
 
@@ -157,67 +157,53 @@ _____
 
 ## <a id="python"></a>Python
 
-Here is the commands to set up a Python virtual environment:
+Here is the concatenation of the commands used to set up the Python virtual environment in the tutorial:
 
 ```bash
-# Install env bin
 git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 git clone https://github.com/yyuu/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
 
-# Add bin to your path
-echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bash_profile
-echo 'export PATH="$HOME/.pyenv/shims:$PATH"' >> ~/.bash_profile
-echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
-echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
+echo "export PATH=\"$HOME/.pyenv/bin:$PATH\"" >> ~/.bash_profile
+echo "export PATH=\"$HOME/.pyenv/shims:$PATH\"" >> ~/.bash_profile
+echo "eval \"$(pyenv init -)\"" >> ~/.bash_profile
+echo "eval \"$(pyenv virtualenv-init -)\"" >> ~/.bash_profile
 source ~/.bash_profile
 
-# Install a specific version
 pyenv install 3.5.1
 
-# Set up env for a specific folder
 mkdir my_project
 cd my_project
 pyenv local 3.5.1
 
-# Install package manager
 pip install --upgrade pip
 
-# Add a package to the listing file
 echo "python-dateutil" >> requirements.txt
 
-# Install packages locally from the listing file
 pip install -r requirements.txt
 ```
 
 ## <a id="perl"></a>Perl
 
-Here is the commands to set up a Perl virtual environment:
+Here is the concatenation of the commands used to set up the Perl virtual environment in the tutorial:
 
 ```bash
-# Install env bin
 git clone https://github.com/tokuhirom/plenv.git ~/.plenv
 git clone https://github.com/tokuhirom/Perl-Build.git ~/.plenv/plugins/perl-build
 
-# Add bin to your path
-echo 'export PATH="$HOME/.plenv/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(plenv init -)"' >> ~/.bash_profile
+echo "export PATH=\"$HOME/.plenv/bin:$PATH\"" >> ~/.bash_profile
+echo "eval \"$(plenv init -)\"" >> ~/.bash_profile
 source ~/.bash_profile
 
-# Install a specific version
 plenv install 5.25.8
 plenv rehash
 
-# Set up env for a specific folder
 mkdir my_project
 cd my_project
 plenv local 5.25.8
 
-# Install package manager
 plenv install-cpanm
 
-# Add a package to the listing file
 echo "requires 'DateTime';" >> cpanfile
 
-# Install packages locally from the listing file
 cpanm --installdeps .
 ```
