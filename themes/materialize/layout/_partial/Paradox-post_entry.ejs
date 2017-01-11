@@ -1,5 +1,5 @@
 <div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
-
+    
     <!-- Post Thumbnail -->
 	<% if(post.thumbnail == undefined){ %>
 		<% if(theme.thumbnail.purecolor == undefined){ %>
@@ -13,7 +13,7 @@
 		<!-- Custom Thumbnail -->
 		<div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(<%= post.thumbnail %>)">
 	<% } %>
-
+				
 		<!-- Post Title -->
 		<p class="article-headline-p"><a href="<%= url_for(post.path) %>"><%= post.title %></a></p>
 	</div>
@@ -21,7 +21,7 @@
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         <%if(post.excerpt){%>
-            <%- post.excerpt %>
+            <%- strip_html(post.excerpt) %>
         <%}else{%>
             <%- strip_html(truncate(post.content,{length: theme.reading.entry_excerpt })) %>
         <%}%>
@@ -51,20 +51,20 @@
                     style: 'none'
                 }) %>
             </span>
-
+            
             <% if(theme.comment.use == "duoshuo"){ %>
                 <!-- Comment Number -->
                 &nbsp;|&nbsp;
                 <span class="post_entry-comment" >
-                        <span class="ds-thread-count" data-thread-key="<% if(theme.comment.duoshuo_thread_key == "id"){ %><%= post.id %><% } else { %><%= post.path %><% } %>" data-count-type="comments"></span>
+                        <span class="ds-thread-count" data-thread-key="<% if(theme.comment.duoshuo_thread_key_type == "id"){ %><%= post.id %><% } else { %><%= post.path %><% } %>" data-count-type="comments"></span>
                 </span>
             <% } %>
-
+            
             <!-- Post Views -->
             <span class="post_entry-views">
-
+                
             </span>
         </div>
     </div>
-
+            
 </div>

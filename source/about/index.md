@@ -2,6 +2,8 @@
 title: About
 date: 2016-12-21 18:53:40
 categories: editorial
+tags:
+  - about
 ---
 
 

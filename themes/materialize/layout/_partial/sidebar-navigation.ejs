@@ -51,27 +51,40 @@
         </ul>
     </li>
 
-
-    <!-- About -->
-    <li>
-        <a href="/about" target="_self">
-            <i class="material-icons sidebar-material-icons">person</i>
-             <%= __("sidebar.about") %>
+    <!-- Categories  -->
+    <% if(theme.sidebar_categories == true){ %>
+    <li class="dropdown">
+        <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+            <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+             <%= __("title.category") %>
+            <b class="caret"></b>
         </a>
+        <ul class="dropdown-menu">
+            <li>
+            <%- list_categories({
+                show_count: true,
+                amount: 5,
+                class: 'sidebar_archives',
+                style: 'none',
+                separator: '</li><li>'
+            }) %>
+        </ul>
     </li>
+    <% } %>
 
     <!-- Divider -->
     <!-- <li class="divider"></li> -->
 
 
     <!-- Pages  -->
-	<!-- <% for (var i in theme.pages){ %>
-		<li>
-			<a href="<%= theme.pages[i] %>" title="<%= i %>">
-				<%= i %>
-			</a>
-		</li>
-	<% } %> -->
+	<% for (var i in theme.pages){ %>
+    <li id="sidebar-first-li">
+      <a href="<%= theme.pages[i].url %>" title="<%= i %>">
+        <i class="material-icons sidebar-material-icons"><%= theme.pages[i].icon %></i>
+        <%= i %>
+      </a>
+    </li>
+	<% } %>
 
     <!-- Article Number  -->
     <!-- <li>

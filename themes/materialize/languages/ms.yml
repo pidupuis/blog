@@ -1,6 +1,5 @@
 sidebar:
     homepage: "Laman"
-    about: "Mengenai"
     archive: "Arkib"
     article_num: "Bilangan Artikel"
 post:
@@ -10,16 +9,21 @@ post:
     older: "Lama"
     newer: "Baru"
     private: "Siaran peribadi, disembunyikan buat sementara"
+    qrcode: "Baca artikel ini pada peranti lain"
 share:
     article_rss: "RSS Artikel"
     comment_rss: "RSS Ulasan"
     toTwitter: "Kongsi ke Twitter"
+    toFacebook: "Kongsi ke Facebook"
+    toLinkedIn: "Kongsi ke LinkedIn"
+    toTelegram: "Kongsi ke Telegram"
     toGplus: "Kongsi ke Google+"
-    toLinkedin: "Kongsi ke LinkedIn"
     toWeibo: "Kongsi ke Weibo"
+    toQQ: "Kongsi ke QQ"
 title:
     category: "Kategori"
     tag: "Tag"
 misc:
     home: "Laman"
     theme: "Tema"
+    about: "Mengenai"

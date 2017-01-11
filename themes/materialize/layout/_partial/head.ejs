@@ -1,10 +1,15 @@
 <head>
+    <!--
+        © Material Theme 
+        https://github.com/viosey/hexo-theme-material
+        Version: Canary 1.2.5.1
+    
     <!-- Title -->
     <%
         var title = page.title;
 
         if (is_archive()){
-            title = __('archive_a');
+            title = __("sidebar.archive");
 
             if (is_month()){
                 title += ': ' + page.year + '/' + page.month;

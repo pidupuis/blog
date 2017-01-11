@@ -149,6 +149,7 @@ a {
 /* Markdown_Github_CSS */
 /***********************/
 #post-content.markdown-Github figure {
+    margin-right: 0;
 	margin-left: 0;
 }
 #post-content.markdown-Github,
@@ -425,7 +426,7 @@ a {
 	border-radius: 3px;
 }
 #post-content.markdown-Github code {
-	white-space: nowrap;
+/*	white-space: nowrap;*/
 }
 #post-content.markdown-Github pre > code {
 	margin: 0;
@@ -676,7 +677,7 @@ a {
 #scheme-Paradox .material-layout .something-else .something-else-logo img {
     margin-bottom: 10px;
     width: 10pc;
-    /*height: 10pc*/
+    height: 10pc
 }
 #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text {
     border-bottom-right-radius: 2px;

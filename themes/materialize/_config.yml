@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/img/favicon.png"
-    high_res_favicon: "/img/favicon.png"
-    apple_touch_icon: "/img/favicon.png"
+    favicon: "/img/tciw_favicon.png"
+    high_res_favicon: "/img/tciw_favicon.png"
+    apple_touch_icon: "/img/tciw_favicon.png"
     keywords:
         - Bioinformatics
         - Software QA
@@ -25,16 +25,17 @@ url:
 
 # Schemes
 scheme: Paradox
+#scheme: Isolation
 
 # UI & UX: slogan, color, effect
 uiux:
     slogan: "A blog about Software QA, Web development and Bioinformatics"
-    theme_color: "#3a3333" #"#0097A7"
-    theme_sub_color: "#923B31" #"#00838F"
-    hyperlink_color: "#923B31" #"#00838F"
-    button_color: "#A68E8C" #"#757575"
-    android_chrome_color: "#3a3333" #"#0097A7"
-    nprogress_color: "#3D73A8" #"#FF4081"
+    theme_color: "#3a3333"
+    theme_sub_color: "#923B31"
+    hyperlink_color: "#923B31"
+    button_color: "#A68E8C"
+    android_chrome_color: "#3a3333"
+    nprogress_color: "#3D73A8"
     nprogress_buffer: "800"
 
 # JS Effect Switches
@@ -48,12 +49,12 @@ js_effect:
 reading:
     markdown: Github
     entry_excerpt: 80
-    code_highlight: solarized-dark
+    code_highlight: solarized-white
 
 # Thumbnail Settings
 thumbnail:
     purecolor:
-    random_amount: 1
+    random_amount: 19
 
 # Background Settings
 # bing available parameter:
@@ -69,13 +70,13 @@ background:
 
 # Images Settings
 img:
-    logo: "/img/logo.png"
-    avatar: "/img/avatar.jpg"
-    daily_pic: "/img/Always-Neat.jpg"
-    sidebar_header: "/img/sidebar_header.jpg"
+    logo: "/img/tciw_logo.png"
+    avatar: "/img/tciw_avatar.png"
+    daily_pic: "/img/tciw_daily_pic.png"
+    sidebar_header: "/img/tciw_sidebar_header.png"
     footerico: "/img/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
-    random_thumbnail: "/img/random/"
+    random_thumbnail: "/img/random/material-"
 
 # Custom Fonts
 fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
@@ -90,11 +91,23 @@ sns:
     twitter:
     facebook:
     googleplus:
+    weibo:
     instagram:
     tumblr:
     github: "https://github.com/pidupuis"
     linkedin: "https://www.linkedin.com/in/pidupuis/en"
+    zhihu:
     telegram: "https://telegram.me/pidupuis"
+
+# SNS Share Switch
+sns_share:
+    twitter: true
+    facebook: true
+    googleplus: true
+    weibo: false
+    linkedin: true
+    qq: false
+    telegram: true
 
 # Sidebar User Dropdown
 dropdown:
@@ -102,23 +115,29 @@ dropdown:
         link: "mailto:contact@thatcodeiwrote.com"
         icon: email
 
+# Sidebar Categories Switch
+sidebar_categories: true
+
 # Pages Menu
 pages:
-    About: "/about"
+    About:
+        url: "/about"
+        icon: person
 
-
+# Qrcode for redirect at other device
+qrcode: false
 
 # ---------------------------------------------------------------
 # Integrated Services
 # ---------------------------------------------------------------
 
 # Comment Systems
-# Available value:
+# Available value of "use":
 #     duoshuo | disqus
 comment:
     use:
     shortname:
-    duoshuo_thread_key: path
+    duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
 
 # Search Systems

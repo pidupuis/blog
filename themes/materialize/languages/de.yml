@@ -1,6 +1,5 @@
 sidebar:
     homepage: "Home"
-    about: "Über mich"
     archive: "Archive"
     article_num: "Artikel Nummer"
 post:
@@ -10,17 +9,21 @@ post:
     older: "Älteren"
     newer: "Neuren"
     private: "Private Beiträge sind temporär verborgen"
+    qrcode: "Lesen Sie diesen Artikel auf anderem Gerät"
 share:
     article_rss: "Artikel als RSS"
     comment_rss: "Kommentare als RSS"
     toTwitter: "Auf Twitter teilen"
-    toGplus: "Auf Google+ teilen"
-    toLinkedin: "Auf LinkedIn teilen"
+    toFacebook: "Auf Facebook teilen"
+    toLinkedIn: "Auf LinkedIn teilen"
     toTelegram: "Auf Telegram teilen"
+    toGplus: "Auf Google+ teilen"
     toWeibo: "Auf Weibo teilen"
+    toQQ: "Auf QQ teilen"
 title:
     category: "Kategorie"
     tag: "Tag"
 misc:
     home: "Home"
     theme: "Theme"
+    about: "Über mich"

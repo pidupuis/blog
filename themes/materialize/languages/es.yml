@@ -1,6 +1,5 @@
 sidebar:
     homepage: "Casa"
-    about: "Acerca de"
     archive: "Archivo"
     article_num: "Número de artículo"
 post:
@@ -10,17 +9,21 @@ post:
     older: "Mayor"
     newer: "Más nuevo"
     private: "Mensajes privados, ocultar temporalmente"
+    qrcode: "Lea este artículo en otro dispositivo"
 share:
     article_rss: "Artículo RSS"
     comment_rss: "Comentario RSS"
     toTwitter: "Compartir en Twitter"
-    toGplus: "Compartir en Google+"
-    toLinkedin: "Compartir en LinkedIn"
+    toFacebook: "Compartir en Facebook"
+    toLinkedIn: "Compartir en LinkedIn"
     toTelegram: "Compartir en Telegram"
+    toGplus: "Compartir en Google+"
     toWeibo: "Compartir en Weibo"
+    toQQ: "Compartir en QQ"
 title:
     category: "Categoría"
     tag: "Etiqueta"
 misc:
     home: "Casa"
-    theme: "tema"
+    theme: "Tema"
+    about: "Acerca de"
