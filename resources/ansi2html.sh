@@ -425,7 +425,7 @@ function encode(string,start,end,i,ret,pos,sc,buf) {
                 dumpStatus=dsNew;
               }
               x=cord[2]
-              if(length(cord[1]) && y!=cord[1]){
+              if(length(cord[1]) && y!=cord[1]) {
                 y=cord[1]
                 if(y>maxY) maxY=y
                 # Change y - start recording

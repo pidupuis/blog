@@ -88,8 +88,8 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 # SNS Menu
 sns:
     email: contact@thatcodeiwrote.com
-    twitter:
     facebook:
+    twitter:
     googleplus:
     weibo:
     instagram:
@@ -97,6 +97,7 @@ sns:
     github: "https://github.com/pidupuis"
     linkedin: "https://www.linkedin.com/in/pidupuis/en"
     zhihu:
+    bilibili:
     telegram: "https://telegram.me/pidupuis"
 
 # SNS Share Switch
@@ -121,7 +122,7 @@ sidebar_categories: true
 # Pages Menu
 pages:
     About:
-        url: "/about"
+        link: "/about"
         icon: person
 
 # Qrcode for redirect at other device
