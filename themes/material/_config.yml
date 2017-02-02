@@ -1,0 +1,204 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Head info
+head:
+    favicon: "/img/tciw_favicon.png"
+    high_res_favicon: "/img/tciw_favicon.png"
+    apple_touch_icon: "/img/tciw_favicon.png"
+    keywords:
+        - Bioinformatics
+        - Software QA
+        - Web Development
+
+# Jump Links Settings
+url:
+    rss:
+    daily_pic: "#"
+    logo: "/"
+
+
+# ---------------------------------------------------------------
+# Style Settings
+# ---------------------------------------------------------------
+
+# Schemes
+scheme: Paradox
+#scheme: Isolation
+
+# UI & UX: slogan, color, effect
+uiux:
+    slogan: "A blog about Software QA, Web development and Bioinformatics"
+    theme_color: "#3a3333"
+    theme_sub_color: "#923B31"
+    hyperlink_color: "#923B31"
+    button_color: "#A68E8C"
+    android_chrome_color: "#3a3333"
+    buffer: "800"
+
+# JS Effect Switches
+js_effect:
+    fade: true
+    smoothscroll: false
+
+# Reading experience
+reading:
+    entry_excerpt: 80
+
+# Thumbnail Settings
+thumbnail:
+    purecolor:
+    random_amount: 19
+
+# Background Settings
+# bing available parameter:
+#     new | color= | type=
+#         color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
+#         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
+background:
+    purecolor: "#F5F5F5"
+    #bgimg: "/img/bg.png"
+    bing:
+        enable: false
+        parameter:
+
+# Images Settings
+img:
+    logo: "/img/tciw_logo.png"
+    avatar: "/img/tciw_avatar.png"
+    daily_pic: "/img/tciw_daily_pic.png"
+    sidebar_header: "/img/tciw_sidebar_header.png"
+    footerico: "/img/footer/footer_ico-"
+    random_thumbnail: "/img/random/material-"
+    footer_image:
+        #upyun_logo:
+            #link: "https://www.upyun.com/"
+            #src: "/img/upyun_logo.png"
+
+# Custom Fonts
+fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
+
+# Pace Settings
+# Pace is automatic page load progress bar
+# You can find demos on http://github.hubspot.com/pace/docs/welcome
+# Warning: Line color mustn't delete or not define!
+#     style available values:
+#       barber-shop, big-counter, bounce, center-atom, center-circle, center-radar, center-simple,
+#       corner-indicator, fill-left, fill-left-nocolor, flat-top, loading-bar, macosx
+# Or you can use your own style,just set the style value to "custom",
+# and put your own css style to source/css/pace/custom.css
+# document can be find on:
+pace:
+     style:
+     color: "#3D73A8"
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# SNS Menu
+sns:
+    email: contact@thatcodeiwrote.com
+    facebook:
+    twitter:
+    googleplus:
+    weibo:
+    instagram:
+    tumblr:
+    github: "https://github.com/pidupuis"
+    linkedin: "https://www.linkedin.com/in/pidupuis/en"
+    zhihu:
+    bilibili:
+    telegram: "https://telegram.me/pidupuis"
+
+# SNS Share Switch
+sns_share:
+    twitter: true
+    facebook: true
+    googleplus: true
+    weibo: false
+    linkedin: true
+    qq: false
+    telegram: true
+
+# Sidebar Customize
+sidebar:
+    dropdown:
+        Email Me:
+            link: "mailto:contact@thatcodeiwrote.com"
+            icon: email
+    homepage:
+        use: true
+        icon: home
+        divider: false
+    archives:
+        use: true
+        icon: inbox
+        divider: false
+    categories:
+        use: false
+        icon: chrome_reader_mode
+        divider: false
+    pages:
+        About:
+            link: "/about"
+            icon: person
+            divider: false
+    article_num:
+        use: false
+        divider: false
+    footer:
+        divider: true
+        theme: true
+        support: false
+        feedback: false
+        material: false
+
+# Card Elevation Level
+card_elevation: 2
+
+# Qrcode for redirect at other device
+qrcode: false
+
+# Support Pin posts on the top of the list
+topPost: false
+
+# ---------------------------------------------------------------
+# Integrated Services
+# ---------------------------------------------------------------
+
+# Comment Systems
+# Available value of "use":
+#     duoshuo | disqus
+comment:
+    use:
+    shortname:
+    duoshuo_thread_key_type: path
+    duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
+
+# Search Systems
+# Available value:
+#     swiftype | google | local
+search:
+    use: local
+    swiftype_key:
+
+# Analytics Systems
+analytics:
+    baidu_id:
+    google_id:
+
+# Leancloud Views
+leancloud:
+    enable: false
+    app_id: #你的 app_id
+    app_key: #你的 app_key
+    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+
+# Busuanzi 不蒜子 Views
+busuanzi:
+    enable: false
+    all_site_uv: false
+    post_pv: false
+    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
