@@ -1,6 +1,6 @@
 ---
 title: Handle Google authentication during end-to-end tests
-date: 2016-12-23T08:50:14.000Z
+date: 2016-12-23T12:00:00.000Z
 categories: Testing
 tags:
   - test

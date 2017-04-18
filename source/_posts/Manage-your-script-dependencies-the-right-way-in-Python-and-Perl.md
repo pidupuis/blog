@@ -1,6 +1,6 @@
 ---
 title: Manage your script dependencies the right way in Python and Perl
-date: 2017-01-09T20:11:44.000Z
+date: 2017-01-09T12:00:00.000Z
 categories: Build
 tags:
   - python
